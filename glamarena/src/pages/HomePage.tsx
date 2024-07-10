@@ -1,6 +1,7 @@
 import About from "../Components/About"
-import CarouselP from "../Components/Carousel"
+import CarouselCard from "../Components/Carousel"
 import Category from "../Components/Category"
+import Footer from "../Components/Footer"
 import Head from "../Components/Head"
 import Navbar from "../Components/Navbar"
 
@@ -12,7 +13,8 @@ function HomePage() {
         <Head/>
         <Category/>
         <About />
-        <CarouselP/>
+        <CarouselCard/>
+        <Footer/>
     </div>
   )
 }
